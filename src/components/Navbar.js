@@ -28,6 +28,8 @@ const Navbar = () => {
                 src="/logo.png"
                 alt="Logo"
                 className="h-11 w-11 rounded-full object-cover shadow-md"
+                width={44}
+                height={44}
               />
             </div>
           </Link>
@@ -44,7 +46,7 @@ const Navbar = () => {
               Thought
             </Link>
             <Link href="/contact" className="hover:text-yellow-300 transition">
-                Contact Us
+              Contact Us
             </Link>
             <div className="flex items-center space-x-3">
               <UserButton />
