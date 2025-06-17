@@ -11,7 +11,7 @@ const ThoughtSchema = new mongoose.Schema(
     content: {
       type: String,
       required: [true, "Please add content"],
-      maxlength: [1000, "Content cannot be more than 1000 characters"],
+      maxlength: [20000, "Content cannot be more than 1000 characters"],
     },
     userId: {
       type: String,
