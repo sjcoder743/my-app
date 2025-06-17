@@ -11,6 +11,7 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
           {/* Left Section (Logo + Site Name) */}
           <Link href="/">
             <div className="flex items-center space-x-3 cursor-pointer">
-              <img
+              <Image
                 src="/logo.png"
                 alt="Logo"
                 className="h-11 w-11 rounded-full object-cover shadow-md"

@@ -1,5 +1,6 @@
 // src/app/thoughts/new/page.js
 "use client";
+import Link from "next/link";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";

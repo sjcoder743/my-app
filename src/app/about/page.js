@@ -1,4 +1,3 @@
-// src/app/about/page.js
 import Link from "next/link";
 
 const AboutPage = () => {
@@ -37,7 +36,7 @@ const AboutPage = () => {
               be nurtured, connected, and transformed into meaningful insights.
             </p>
             <p className="text-lg leading-relaxed text-gray-600">
-              We're building more than just a note-taking app; we're creating a
+              We&apos;re building more than just a note-taking app; we&apos;re creating a
               digital garden for your mind, where seeds of ideas can grow into
               robust knowledge.
             </p>
@@ -85,7 +84,7 @@ const AboutPage = () => {
                 Simplicity
               </h3>
               <p className="text-gray-600">
-                We believe powerful tools don't need to be complicated.
+                We believe powerful tools don&apos;t need to be complicated.
                 MyThoughts is designed to be intuitive, letting you focus on
                 your ideas, not the interface.
               </p>
