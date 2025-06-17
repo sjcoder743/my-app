@@ -71,7 +71,7 @@ const ContactPage = () => {
             Get In Touch
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 max-w-2xl mx-auto">
-            Have questions, suggestions, or just want to say hi? We'd love to
+            Have questions, suggestions, or just want to say hi? We&aposd love to
             hear from you.
           </p>
         </div>
@@ -93,7 +93,7 @@ const ContactPage = () => {
             <div className="text-center p-8 bg-green-50 rounded-lg text-green-700 border border-green-200">
               <h3 className="text-2xl font-bold mb-3">Thank You!</h3>
               <p className="text-lg">
-                Your message has been received and we'll get back to you
+                Your message has been received and we&aposll get back to you
                 shortly.
               </p>
             </div>
